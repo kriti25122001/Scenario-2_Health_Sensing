@@ -6,13 +6,18 @@ This repository contains the solution to **Scenario 2 – Health Sensing [25 Mar
 
 ## 📁 Repository Structure
 
-├── Visualization/              # Contains PDF plots for all 5 participants
-│   └── AP01.pdf, AP02.pdf ...  # Raw signal visualizations + flow event overlays
-├── Bonus_task.ipynb            # Sleep Stage Classification (Bonus 5 Marks)
-├── Dataset_preparation.ipynb  # Visualization, Filtering, and Window Dataset Creation
-├── IITG_assignment_2.ipynb     # Monolithic all-in-one backup notebook
-├── Modelling.ipynb             # CNN and Conv-LSTM training with LOPO CV
-├── README.md                   # Project overview and instructions
+```
+.
+├── Visualization/                  # Contains PDF plots for all 5 participants
+│   ├── AP01.pdf, AP02.pdf, ...     # Raw signal visualizations with event overlays
+│
+├── Bonus_task.ipynb               # Sleep Stage Classification (Bonus 5 Marks)
+├── Dataset_preparation.ipynb      # Visualization, Filtering, and Window Dataset Creation
+├── Modelling.ipynb                # 1D CNN and Conv-LSTM training with LOPO Cross-Validation
+├── IITG_assignment_2.ipynb        # Monolithic backup notebook (all tasks combined)
+├── README.md                      # Project overview and usage instructions
+```
+
 
 
 ---
