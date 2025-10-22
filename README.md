@@ -1,10 +1,10 @@
-# 🛌 Scenario 2 – Health Sensing (DeepMedico™ Project)
+# Scenario 2 – Health Sensing (DeepMedico™ Project)
 
 This repository contains the solution to **Scenario 2 – Health Sensing [25 Marks]**, a healthcare data science assignment from DeepMedico™. The goal is to detect breathing irregularities (Apnea, Hypopnea) during sleep using multi-modal physiological data collected over 8-hour sessions from 5 participants.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -22,7 +22,7 @@ This repository contains the solution to **Scenario 2 – Health Sensing [25 Mar
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 ### Objective:
 Detect **breathing disorders during sleep** using physiological time-series data and build deep learning models to classify them accurately.
@@ -38,23 +38,23 @@ Detect **breathing disorders during sleep** using physiological time-series data
 
 ---
 
-## ✅ Completed Tasks
+## Completed Tasks
 
-### 1. 📊 Visualization (3 Marks)
+### 1.Visualization (3 Marks)
 - Visualized all signals across the 8-hour session.
 - Overlaid annotated breathing events (Apnea, Hypopnea).
 - Exported participant-wise plots in PDF format inside `Visualization/`.
 
-### 2. 🧹 Data Cleaning (4 Marks)
+### 2.Data Cleaning (4 Marks)
 - Applied band-pass filtering to remove high-frequency noise.
 - Preserved the breathing frequency range (0.17 Hz – 0.4 Hz).
 
-### 3. 🧱 Dataset Creation (8 Marks)
+### 3.Dataset Creation (8 Marks)
 - Split cleaned signals into **30-second windows** with **50% overlap**.
 - Assigned labels: `Obstructive Apnea`, `Hypopnea`, or `Normal`.
 - Created a machine learning-ready dataset.
 
-### 4. 🤖 Modeling (10 Marks)
+### 4.Modeling (10 Marks)
 - Trained models using:
   - **1D Convolutional Neural Networks (CNN)**
   - **1D Conv-LSTM**
@@ -63,14 +63,14 @@ Detect **breathing disorders during sleep** using physiological time-series data
   - Accuracy, Precision, Recall, Sensitivity, Specificity
   - Confusion Matrix (per fold and averaged)
 
-### 5. 🌙 Bonus Task: Sleep Stage Classification (5 Marks)
+### 5.Bonus Task: Sleep Stage Classification (5 Marks)
 - Used sleep stage annotations to classify 30s windows into stages like Wake, REM, N1, N2, N3.
 - Reused CNN and Conv-LSTM models for this task.
 - Added in `Bonus_task.ipynb`
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 > You can explore the entire pipeline using the individual Jupyter notebooks provided.
 
@@ -88,14 +88,14 @@ Detect **breathing disorders during sleep** using physiological time-series data
 
 ---
 
-## 📌 Notes
+## Notes
 
 - `IITG_assignment_2.ipynb` contains the entire workflow in one file and serves as a backup or consolidated version.
 - Plots generated during visualization are exported to the `Visualization/` folder in PDF format as required.
 
 ---
 
-## 📅 Future Improvements
+## Future Improvements
 
 - Add automated `vis.py` and `create_dataset.py` scripts for CLI usage.
 - Integrate a dashboard for better visual analysis.
@@ -103,7 +103,7 @@ Detect **breathing disorders during sleep** using physiological time-series data
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Kriti Vajpayee**  
 M.Tech – Remote Sensing & GIS  
