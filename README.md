@@ -1,4 +1,4 @@
-# Scenario 2 – Health Sensing (DeepMedico™ Project)
+# Scenario 2 – Health Sensing
 
 This repository contains the solution to **Scenario 2 – Health Sensing [25 Marks]**, a healthcare data science assignment from DeepMedico™. The goal is to detect breathing irregularities (Apnea, Hypopnea) during sleep using multi-modal physiological data collected over 8-hour sessions from 5 participants.
 
